@@ -1,8 +1,8 @@
 Savage Conversation Forests (SCF)
 Fine-Tuning Large Language Models for Multi-Turn Medical Interviews with Branching Reinforcement Learning
 
-🔬 Overview
-Savage Conversation Forests (SCF) is a novel reinforcement learning framework designed to fine-tune large language models (LLMs) for multi-turn medical conversations. Unlike existing methods (e.g., PPO, GRPO, DPO) that operate on isolated single-turn prompts, SCF enables inter-turn learning by structuring dialogues as branching conversation trees. This allows LLMs to learn diagnostic strategies such as the Funnel Technique, handle ambiguous or misleading patient responses, and explore how each question influences future conversation flow.
+Overview
+Savage Conversation Forests (SCF) is a novel reinforcement learning framework designed to fine-tune large language models (LLMs) for multi-turn medical conversations. Unlike existing methods (e.g., PPO, GRPO, DPO) that operate on isolated single-turn prompts, SCF enables inter-turn learning by structuring dialogues as branching conversation trees. This allows LLMs to learn diagnostic strategies and understand how each conversational turn influences future conversation flow.
 
 SCF is built on top of Group Relative Policy Optimization (GRPO) and introduces three key innovations:
 
